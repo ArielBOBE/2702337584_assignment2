@@ -1,0 +1,62 @@
+/* Setting font for entire html */
+
+html * {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 174, 219);
+}
+
+/* Making button blank to be customized later
+button {
+    background-color: #080808;
+    border: none;
+    color: rgb(222, 222, 222);
+    width:100%;
+} */
+
+/* FONT WORK STARTS HERE */
+a {
+    text-decoration: none;
+    color:rgb(222, 222, 222);
+    text-align: center;
+}
+.logo {
+    margin-top: 20px;
+    font-size: 3rem;
+    padding:0;
+}
+
+.active, .inactive {
+    font-size: 1.5rem;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:0;
+}
+
+/* FONT WORK ENDS HERE */
+
+/* NAVBAR BEHAVIOUR STARTS HERE */
+
+/* active is underlined */
+.active {
+    text-decoration: underline;
+}
+
+.active:hover, .inactive:hover {
+    color: grey
+}
+
+/* NAVBAR BEHAVIOUR ENDS HERE */
+
+/* Top of the page navbar */
+.navbar-top {
+    display: grid;
+    /* grid: align-content; */
+    margin:0;
+    width:100%;  
+    background-color: #080808;
+}
