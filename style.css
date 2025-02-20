@@ -76,7 +76,7 @@ button:hover {
     justify-content: center;
 }
 
-.member-image {
+#member-image {
     width:200px;
     height:300px;
     object-fit: cover;
@@ -115,7 +115,7 @@ button:hover {
 }
 
 @media (max-width:350px) {
-    .member-image {
+    #member-image {
         width:150px;
         height:225px;
     }
