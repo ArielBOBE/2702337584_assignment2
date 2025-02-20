@@ -23,9 +23,9 @@ a {
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
     margin:0;
     font-size: 20px;
+    width:fit-content;
 }
 
 table {
@@ -40,6 +40,7 @@ tr {
 
 td {
     width: 50%;
+    border-collapse: collapse;
 }
 
 /* class that is attached to option 'a' wherein 'a' is the current page */
@@ -47,9 +48,17 @@ td {
     background-color:  rgb(202, 202, 202);
 }
 
-td:hover{
+/* BUTTON */
+button {
+    border:none;
+    background-color:rgb(224, 222, 222);
+    width: inherit;
+}
+
+button:hover{
     background-color:  rgb(183, 180, 180);
     margin: 0;
+    cursor: pointer;
 }
 
 body {
