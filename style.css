@@ -52,11 +52,88 @@ a {
 
 /* NAVBAR BEHAVIOUR ENDS HERE */
 
+/* CONTENT/BODY BEHAVIOUR STARTS HERE */
+.container {
+
+}
+
+button {
+    font-size: 3rem;
+    background-color: rgb(41, 41, 41, 0.8);
+    background-color: rgb(109, 174, 219);
+    color: white;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    color:black
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.member-image {
+    width:200px;
+    height:300px;
+    object-fit: cover;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.member-desc {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.desc {
+    text-align: center;
+}
+
+/* CONTENT/BODY BEHAVIOUR ENDS HERE */
+
 /* Top of the page navbar */
 .navbar-top {
     display: grid;
     /* grid: align-content; */
     margin:0;
+    padding:0;
     width:100%;  
     background-color: #080808;
+}
+
+@media (max-width:350px) {
+    .member-image {
+        width:150px;
+        height:225px;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        margin-top: 20px;
+        font-size: 2rem;
+        padding:0;
+    }
+    
+    .active, .inactive {
+        font-size: 1rem;
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:0;
+    }
 }
