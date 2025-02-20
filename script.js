@@ -1,6 +1,6 @@
 // On click call function to click a element
-document.getElementById("portfolio_").onclick = function() {gotoSite()};
+document.getElementById("inactive_").onclick = function() {gotoSite()};
 
 function gotoSite() {
-    document.getElementById("portfolio").innerHTML = "HELLO WORLD!"
+    document.getElementById("inactive").click()
 }

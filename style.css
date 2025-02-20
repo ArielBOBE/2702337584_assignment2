@@ -44,7 +44,7 @@ td {
 }
 
 /* class that is attached to option 'a' wherein 'a' is the current page */
-.active {
+#active_ {
     background-color:  rgb(202, 202, 202);
 }
 
