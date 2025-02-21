@@ -4,6 +4,8 @@ let stars =
 let output = 
     document.getElementById("output");
 
+gfg(2).call();  
+
 document.getElementById("leftB").onclick = function() {minusImage()};
 document.getElementById("rightB").onclick = function() {plusImage()};
 
